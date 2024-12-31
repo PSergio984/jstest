@@ -1,6 +1,4 @@
-const leapYears = function() {
-
-};
-
-// Do not edit below this line
-module.exports = leapYears;
+const leapYears = function (year) {
+  return year %4 ===0;
+}
+  module.exports = leapYears;
